@@ -1,0 +1,23 @@
+cat > .gitignore <<EOL
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+
+# JSON output
+/backend/output/
+/backend/static/
+EOL
